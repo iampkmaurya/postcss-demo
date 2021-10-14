@@ -9,6 +9,4 @@ gulp.task('css', () => {
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('build/'))
 })
-gulp.task('watch', function () {
-    gulp.watch('css/*.css', ['css']);
-});
+
